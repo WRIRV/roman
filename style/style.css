@@ -1,0 +1,223 @@
+@media (max-width: 768px) {
+    body {
+        width: 100%; /* Установка ширины на 100% для мобильных устройств */
+        background-attachment: scroll; /* Измените на scroll для лучшего отображения на мобильных устройствах */
+    }
+
+    h1 {
+        font-size: 30px; /* Уменьшите размер шрифта для заголовка */
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 24px; /* Уменьшите размер шрифта для подзаголовка */
+    }
+
+    figcaption {
+        font-size: 16px; /* Уменьшите размер шрифта для подпися */
+    }
+
+    p {
+        font-size: 16px; /* Уменьшите размер шрифта для абзаца */
+        margin-bottom: 15px; /* Добавьте отступы между абзацами */
+    }
+
+    main {
+        padding-left: 15px; /* Уменьшите внутренние отступы */
+        padding-right: 15px;
+        padding-top: 10px;
+    }
+
+    .class1-1,
+    .pic1,
+    .pic2,
+    .pic3,
+    .pic4,
+    .pic5,
+    .class2-1,
+    .class2-2,
+    .class2-3,
+    .class3-1,
+    .class3-2,
+    .class3-3 {
+        flex-direction: column; /* Измените направление flex на столбец */
+        align-items: center; /* Центрируйте элементы */
+        margin-top: 20px; /* Установите более маленький отступ для мобильных */
+    }
+
+    .article-2,
+    .article-3,
+    .article-4 {
+        margin-top: 60px; /* Установите меньшее расстояние между статьями */
+        text-align: center; /* Центрируйте текст */
+    }
+
+    video {
+        width: 100%; /* Сделайте видео адаптивным */
+        height: auto; /* Поддерживайте пропорции видео */
+        padding-bottom: 20px; /* Уменьшите отступ снизу для видео */
+    }
+
+    footer {
+        width: 100%; /* Установите ширину фута на 100% */
+        font-size: 16px; /* Уменьшите размер шрифта для мобильных устройств */
+        padding-top: 15px; /* Уменьшите отступы */
+        padding-bottom: 15px;
+    }
+}
+
+
+
+body{
+    margin: auto;
+    width: 1000px;
+    background-image: url('../media/background.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: rgb(0, 195, 255);
+    text-shadow: 6px 6px 10px rgb(0, 0, 0);
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(156, 240, 255);
+}
+
+figcaption{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(218, 249, 255);
+}
+
+p{
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(0, 217, 255);
+}
+
+main{
+    background-color: rgb(0, 107, 126);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.class1-1{
+    display: flex;
+}
+
+.class1-2{
+    margin-top: 80px;
+}
+
+.pic1{
+    display: flex;
+}
+
+.class1-3{
+    margin-top: 80px;
+}
+
+.pic2{
+    display: flex;
+}
+
+.article-2{
+    margin-top: 160px;
+}
+
+.class2-1{
+    margin-top: 80px;
+}
+
+.pic3{
+    display: flex;
+}
+
+.class2-2{
+    margin-top: 80px;
+}
+
+.pic4{
+    display: flex;
+}
+
+.class2-3{
+    margin-top: 80px;
+}
+
+.pic5{
+    display: flex;
+}
+
+.article-3{
+    margin-top: 160px;
+}
+
+.class3-1{
+    margin-top: 80px;
+}
+
+.pic6{
+    display: flex;
+}
+
+.class3-2{
+    margin-top: 80px;
+}
+
+.pic7{
+    display: flex;
+}
+
+.class3-3{
+    margin-top: 80px;
+}
+
+.pic8{
+    display: flex;
+}
+
+.article-4{
+    margin-top: 160px;
+    text-align: center;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+footer{
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(0, 217, 255);
+    text-align: center;
+    background-color: rgb(0, 68, 80);
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
